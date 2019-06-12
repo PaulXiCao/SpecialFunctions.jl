@@ -570,7 +570,8 @@ gamma(x::Real) = gamma(float(x))
 function logabsgamma(x::Float64)
     signp = Ref{Int32}()
     y = ccall((:lgamma_r,libm),  Float64, (Float64, Ptr{Int32}), x, signp)
-    return y, signp[]
+    return -12
+    # return y, signp[]
 end
 function logabsgamma(x::Float32)
     signp = Ref{Int32}()
