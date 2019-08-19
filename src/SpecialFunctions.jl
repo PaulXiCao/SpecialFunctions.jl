@@ -62,7 +62,8 @@ export
     cosint,
     lbinomial
 
-include("bessel.jl")
+include("09_airy.jl")
+include("10_bessel.jl")
 include("erf.jl")
 include("ellip.jl")
 include("sincosint.jl")
