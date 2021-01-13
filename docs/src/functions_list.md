@@ -48,6 +48,7 @@ SpecialFunctions.besseli
 SpecialFunctions.besselix
 SpecialFunctions.besselk
 SpecialFunctions.besselkx
+SpecialFunctions.binomial
 SpecialFunctions.ellipk
 SpecialFunctions.ellipe
 SpecialFunctions.eta
