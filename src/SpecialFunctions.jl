@@ -27,6 +27,7 @@ export
     bessely0,
     bessely1,
     besselyx,
+    binomial,
     dawson,
     ellipk,
     ellipe,
